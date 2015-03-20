@@ -31,20 +31,20 @@
 
 以下のいずれかの方法をお試しください。
 
-1. Anacondaを導入する（初心者向け）
+1. Anacondaを導入する（初心者向け）<br>
 [Anaconda](https://store.continuum.io/cshop/anaconda/)は、データ分析に利用できるPythonパッケージをまとめて配布しているディストリビューションです。Win / Mac / Linux いずれにも導入可能です。[Anacondaダウンロードページ](http://continuum.io/downloads)にアクセスして、インストーラーのダウンロードとインストールを行って下さい。Anacondaダウンロードページにデフォルトで表示されているのはPython2.7系のインストーラーのため、「I WANT PYTHON3.4」を選択して、Python3.4系のインストーラーを入手できるよう切り替えて下さい。
 
-2. 各パッケージをpipインストールする
-[Python3.4](https://www.python.org/downloads/release/python-343/)の導入後、次のコマンドで各パッケージをインストールしてください。
-
-    pyvenv pydata-t1
-    source pydata-t1/bin/activate
-    pip install numpy
-    pip install scipy
-    pip install pandas
-    pip install scikit-learn
-    pip install ipython[notebook]
-    pip install matplotlib
+2. 各パッケージをpipインストールする<br>
+[Python3.4](https://www.python.org/downloads/release/python-343/)の導入後、次のコマンドで各パッケージをインストールしてください。<br>
+     <br>
+     pyvenv pydata-t1<br>
+     source pydata-t1/bin/activate<br>
+     pip install numpy<br>
+     pip install scipy<br>
+     pip install pandas<br>
+     pip install scikit-learn<br>
+     pip install ipython[notebook]<br>
+     pip install matplotlib
 
 ## チュートリアル第1部 - データハンドリング
 
